@@ -6,14 +6,14 @@ import androidx.room.PrimaryKey
 
 @Entity(tableName = "contacts")
 data class Contact(
-    @PrimaryKey(autoGenerate = true) val id: Int = 0,
+    @PrimaryKey(autoGenerate = true) val id: Long = 0,
     val nombre: String,
     val telefono: String,
     val correo: String,
     val imagenPerfil: String, // URL para la imagen de perfil
     val fechaNacimiento: String
 )
-//Prueba de lista
+//Lista de prueba
 object DummyContacts{
     val contactList = listOf(
         Contact(1,"alex","961282570","alex@coreo.cl","", "16-05-12"),

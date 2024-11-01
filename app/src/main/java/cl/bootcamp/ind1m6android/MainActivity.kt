@@ -6,7 +6,6 @@ import androidx.activity.compose.setContent
 import androidx.activity.viewModels
 import cl.bootcamp.ind1m6android.navigation.NavController
 import cl.bootcamp.ind1m6android.ui.theme.Ind1M6AndroidTheme
-import cl.bootcamp.ind1m6android.view.ContactListScreen
 import cl.bootcamp.ind1m6android.viewModel.ContactViewModel
 import dagger.hilt.android.AndroidEntryPoint
 
